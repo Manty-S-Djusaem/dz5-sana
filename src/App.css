@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6FFDE;
+    padding: 10px 20px;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+button {
+    border: 2px solid black;
+    background: none;
+    font-size: 21px;
+    border-radius: 4px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    border: 2px solid #C9DBB2;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.comments {
+    border-radius: 8px;
+    margin-top: 10px;
+    border-bottom: 1px solid #AAC8A7;
+    border-top: 1px solid #AAC8A7;
+    text-align: left;
+}
